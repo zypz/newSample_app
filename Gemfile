@@ -1,4 +1,10 @@
 source 'https://rubygems.org'
+#分页
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+#向数据库批量添加用户
+gem 'faker',                '1.4.2'
+
 gem 'bcrypt',               '3.1.7'
 gem 'bootstrap-sass',       '3.2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
